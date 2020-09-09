@@ -1,0 +1,14 @@
+---
+    #Language
+    language_switch_success_pm: Preferensi bahasa Anda telah diperbarui ke {}
+    language_not_supported: "{} belum didukung!"
+    language_code_not_valid: Itu bukan kode bahasa yang valid. Gunakan kode ISO yang diterima secara internasional!
+    language_current_locale: "Lokal saat ini untuk obrolan ini adalah: **{}**"
+    language_select_language: "**Pilih bahasa**\n"
+    #Assistant Help
+    inline_help_text: "**Inline Guide**\nJust type `@{} (command)` in text box, and wait for response.\n\n──「 **Get Note from Inline** 」──\n-> `note (*notetag)`\nAnd wait for list of notes in inline, currently support Text and Button only.\n\n──「 **Stylish Generator Inline** 」──\n-> `stylish (your text)`\nConvert a text to various style, can be used anywhere!\n\n* = Can be used as optional"
+    start_message: "Hi {},\nNana is Ready at your Service!\n===================\n-> Python: `{}`\n-> Userbot: `{} (v{})`\n-> Assistant: `Running (v{})`\n-> Database: `{}`\n-> Group joined: `{}`\n===================\n`For more about the bot press button down below`"
+    help_btn: "Tolong"
+    help_str: "Anda bisa menggunakan {} pada userbot Anda untuk menjalankan perintah itu.\nBerikut adalah modul yang Anda miliki\nPerintah utama tersedia:\n - /start: dapatkan status bot Anda\n - /stats: dapatkan status userbot Anda\n - /settings: mengatur userbot Anda\n - /getme: dapatkan info profil userbot Anda\n - /help: dapatkan menu ini"
+    #Gdrive Assistant
+    gdrive_credential_err_heroku: "Halo, sepertinya Anda belum login ke google drive 🙂 Saya dapat membantu Anda untuk login.\nPertama-tama, Anda perlu mengaktifkan API Google Drive Anda\n1. [Buka di sini]('https://developers.google.com/drive/api/v3/quickstart/python'),\nklik Aktifkan API drive\n2. Masuk ke akun Google Anda (lewati ini jika Anda sudah masuk)\n3. Setelah login, klik Enable the drive API lagi,\ndan klik tombol Unduh Konfigurasi Klien, unduh itu.\n4. Setelah mengunduh file itu, buka file itu lalu salin semua konten itu ke dashboard.heroku.com,\npilih aplikasi Anda dan pergi ke pengaturan, pergi ke config vars kemudian tambahkan kunci dengan nama gdrive_credentials dengan nilai kredensial Anda\nSetelah itu, Anda dapat melanjutkan ke panduan berikutnya berdasarkan tipe /gdrive"

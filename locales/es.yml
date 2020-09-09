@@ -1,0 +1,14 @@
+---
+    #Language
+    language_switch_success_pm: Tu preferencia de idioma se ha actualizado a {}
+    language_not_supported: "¡{} aún no está soportado!"
+    language_code_not_valid: Eso no es un código de idioma válido. ¡Usa un código ISO internacionalmente aceptado!
+    language_current_locale: "El idioma actual para este chat es: **{}**"
+    language_select_language: "**Seleccionar idioma** \n"
+    #Assistant Help
+    inline_help_text: "**Guía en línea**\nSólo tipo `@{} (mando)` en el cuadro de texto y espera la respuesta.\n\n──「 **Obtener nota de Inline** 」──\n-> `note (*notetag)`\nY espere la lista de notas en línea, actualmente solo admite texto y botón.\n\n──「 **Stylish Generator Inline** 」──\n-> `stylish (your text)`\nConvierta un texto a varios estilos, ¡se puede usar en cualquier lugar!\n\n* = Se puede utilizar como opcional"
+    start_message: "Hola {},\nNana está lista a su servicio!\n===================\n-> Python: `{}`\n-> Userbot: `{} (v{})`\n-> Assistant: `Running (v{})`\n-> Database: `{}`\n-> Group unido: `{}`\n===================\n`Para obtener más información sobre el bot, presione el botón a continuación`"
+    help_btn: "Ayuda"
+    help_str: "Puedes usar {} en tu userbot para ejecutar esos comandos.\nAquí están los módulos actuales que tiene\nPrincipales comandos disponibles:\n - /start: obtén el estado de tu bot\n - /stats: obtenga su estado de userbot\n - /settings: configuración de su userbot\n - /getme: obtenga la información de su perfil de userbot\n - /help: obtén este menú"
+    #Gdrive Assistant
+    gdrive_credential_err_heroku: "Hola, parece que no has iniciado sesión en Google Drive 🙂 Puedo ayudarte a iniciar sesión.\nEn primer lugar, debe activar su API de Google Drive\n1. [Ir aquí]('https://developers.google.com/drive/api/v3/quickstart/python'),\nhaga clic en Habilitar la API de la unidad\n2. Inicie sesión en su cuenta de Google (omita esto si ya ha iniciado sesión)\n3. Después de iniciar sesión, haga clic en Habilitar la API de la unidad nuevamente,\ny haga clic en el botón Descargar configuración del cliente, descárguelo.\n4. Después de descargar ese archivo, ábralo y luego copie todo ese contenido, vaya a dashboard.heroku.com,\nseleccione sus aplicaciones y vaya a la configuración, vaya a config vars y luego agregue la clave con el nombre `gdrive_credentials` con el valor de sus credenciales\nDespués de eso, puede ir a la siguiente guía por tipo /gdrive"
